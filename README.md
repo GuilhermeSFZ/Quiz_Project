@@ -1,3 +1,12 @@
+# 🧠 Quiz Interativo - Sistema Desktop
+
+<p align="center">
+  <img src="src/main/resources/background.png" alt="Logo do jogo" width="300"/>
+</p>
+
+Este projeto consiste em uma aplicação desktop de quiz interativo, onde usuários podem se cadastrar, responder perguntas e competir em um ranking de pontuações.
+
+Usuários com perfil de administrador possuem funcionalidades adicionais, como o gerenciamento do sistema, podendo cadastrar, editar e remover perguntas, além de acompanhar o desempenho geral dos participantes.
 
 ## 📊 Objetivo do Projeto
 
