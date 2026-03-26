@@ -43,7 +43,9 @@ Quiz_Project/
 └── 📂 Other Sources                    # Configurações e Recursos
     ├── 📄 hibernate.cfg.xml            # Configuração do Banco de Dados
     └── 🖼️ background.png               # Assets visuais
+
 ---
+
 ## 📌 Funcionalidades
 
 ### 👤 Área do Usuário
