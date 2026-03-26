@@ -16,6 +16,35 @@ Praticar o desenvolvimento de interfaces gráficas
 Implementar um sistema de autenticação de usuários
 Aplicar conceitos de persistência de dados
 
+## 📂 Estrutura do Projeto
+
+O projeto segue o padrão de arquitetura **MVC (Model-View-Controller)** para separar a lógica de negócio da interface gráfica e do acesso aos dados.
+
+```text
+Quiz_Project/
+├── 📦 com.ufmt.computacao.quiz.dao     # Camada de Acesso a Dados (Data Access Object)
+│   ├── 📄 QuestaoDAO.java              # Persistência e consultas de questões
+│   ├── 📄 RankingDAO.java              # Persistência de pontuações
+│   └── 📄 UsuarioDAO.java              # CRUD e autenticação de usuários
+├── 📦 com.ufmt.computacao.quiz.gui     # Interface Gráfica (View)
+│   ├── 📄 CadastroApp.java             # Tela de registro de usuários
+│   ├── 📄 CadastrarQuestaoApp.java     # Tela administrativa para novas perguntas
+│   ├── 📄 EditarQuestaoApp.java        # Tela de modificação de questões
+│   ├── 📄 EscolherDificuldadeApp.java  # Filtro de nível do quiz
+│   ├── 📄 PainelAdminApp.java          # Menu principal do administrador
+│   ├── 📄 QuizApp.java                 # Tela principal da partida
+│   ├── 📄 RankingApp.java              # Tela de visualização de placares
+│   ├── 📄 UsuarioApp.java              # Login e acesso inicial
+│   └── 📄 VisualizarQuestoesApp.java   # Listagem administrativa de perguntas
+├── 📦 com.ufmt.computacao.quiz.model    # Classes de Modelo (Entidades)
+│   ├── 📄 Questao.java                 # Atributos e métodos da questão
+│   ├── 📄 Ranking.java                 # Atributos e métodos do ranking
+│   └── 📄 Usuario.java                 # Atributos e métodos do usuário
+├── 📂 Other Sources                    # Configurações e Recursos
+│   ├── 📄 hibernate.cfg.xml            # Configuração de conexão com MySQL/Hibernate
+│   └── 🖼️ background.png               # Recursos visuais da aplicação
+└── 📄 pom.xml                          # Gerenciador de dependências Maven
+
 ## 📌 Funcionalidades
 
 ### 👤 Área do Usuário
