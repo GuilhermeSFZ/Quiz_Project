@@ -44,7 +44,7 @@ Quiz_Project/
 │   ├── 📄 hibernate.cfg.xml            # Configuração de conexão com MySQL/Hibernate
 │   └── 🖼️ background.png               # Recursos visuais da aplicação
 └── 📄 pom.xml                          # Gerenciador de dependências Maven
-
+´´
 ## 📌 Funcionalidades
 
 ### 👤 Área do Usuário
